@@ -21,6 +21,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, Your search is {productid} relates to description of product  {answer}.")
     else:
         return func.HttpResponse(
-             "This HTTP triggered function executed successfully. Pass a product code  in the query string or in the request body for a personalized response.",
+             "trin trin This HTTP triggered function executed successfully. Pass a product code  in the query string or in the request body for a personalized response.",
              status_code=200
         )
