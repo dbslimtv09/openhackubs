@@ -80,7 +80,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                             }
                 
                 container.create_item(body=payload1)
-                return func.HttpResponse(f"success, {payload1}",status_code=200)
+                return func.HttpResponse(f"success ho gaya, {payload1}",status_code=200)
         
     except Exception as e:
         return func.HttpResponse(f"Hello, {e} not found.",status_code=200)  
